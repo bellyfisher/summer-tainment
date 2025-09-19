@@ -1,0 +1,65 @@
+body {
+    background-color: antiquewhite;
+}
+
+.nav {
+    background-color: deepskyblue;
+}
+.opener {
+    background-color: #090c9b;
+    border-radius: 80px;
+    padding: 50px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+h1:hover{
+    transition: 0.6s;
+    filter: drop-shadow(1px 1px 2px #e9c46a);
+}
+
+#what {
+    padding: 30px;
+    text-align: center;
+    border-radius: 85px;
+    background-color: #e9c46a;
+}
+
+h3:hover{
+    transition: 0.6s;
+    filter: drop-shadow(2px 2px 3px skyblue);
+}
+
+h2{
+    filter: drop-shadow(3px 3px 3px dodgerblue);
+    text-align: center;
+}
+
+.carousel-item{
+    text-align: center;
+}
+
+.carousel-item img{
+    border-radius: 75px;
+    height: 555px;
+    width: auto;
+margin: auto;    
+}
+
+.image img{
+    border-radius: 75px;
+}
+
+.student-exec{
+text-align: center;
+border-radius: 85px;
+}
+
+.student-exec img{
+    border-radius: 75px;
+    margin: auto;
+}
