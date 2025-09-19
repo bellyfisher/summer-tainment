@@ -7,8 +7,30 @@ body {
 }
 .opener {
     background-color: #090c9b;
-    border-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
     padding: 50px;
+    text-align: center;
+    font-size: 50px;
+      font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.opener:hover{
+      transition: 0.6s;
+    filter: drop-shadow(3px 3px 3px coral);  
+}
+
+.image{
+    text-align: center;
+}
+
+.image img{
+    border-radius: 75px;
+    height: 555px;
+    width: auto;
 }
 
 h1 {
@@ -62,4 +84,12 @@ border-radius: 85px;
 .student-exec img{
     border-radius: 75px;
     margin: auto;
+}
+
+footer{
+    background-color: #e9c46a;
+    color: #090c9b;
+    font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
