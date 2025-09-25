@@ -83,7 +83,9 @@ border-radius: 85px;
 
 .student-exec img{
     border-radius: 75px;
-    margin: auto;
+    height: 555px;
+    width: auto;
+margin: auto; 
 }
 
 footer{
