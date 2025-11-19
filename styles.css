@@ -37,6 +37,10 @@ h1 {
     padding: 10px;
     text-align: center;
     color: rgb(0, 0, 0);
+      font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
 h1:hover{
@@ -94,4 +98,10 @@ footer{
     font-family: "Italianno", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+footer img{
+    height: 50px;
+    width: auto;
+    margin: auto;
 }
